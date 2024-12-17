@@ -1,0 +1,76 @@
+.container{
+    width: 100%;
+    height: 1200px;
+    display: grid;
+    place-content: center;
+    background: lightcyan;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+.container form .title{
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    place-content: center;
+}
+.container form{
+    width: 400px;
+    padding: 15px 10px;
+}
+form .input-field{
+    width: 100%;
+    margin: 5px 0px;
+}
+form .input-field p{
+    font-size: 14px;
+    font-weight: bold;
+}
+form .input-field input[type='text'],
+form .input-field input[type='email'],
+form .input-field input[type='number'],
+form .input-field input[type='date'],
+form .input-field select{
+    width: 100%;
+    padding: 5px;
+    margin:5px 0px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+form .input-field .error-div{
+    padding: 1px 0px;
+    color: red;
+    font-weight: 500;
+    font-size: 12px;
+}
+form .gender-element,
+form .marital-element{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 30px;
+}
+form .input-field .gender-field,
+form .input-field .marital-field{
+    padding: 2px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;justify-content: center;
+    gap: 8px;
+}
+form .input-field input[type='checkbox']{
+    margin: 5px 5px;
+}
+form .button-field{
+    width: 100%;
+}
+form .button-field button{
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid blue;
+    padding: 8px;
+    color: white;
+    background: blue;
+
+}
