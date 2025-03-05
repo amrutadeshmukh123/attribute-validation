@@ -99,3 +99,53 @@ form .button-field button {
     outline: none;
     border: 2px solid steelblue;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+    .container {
+        height: auto; 
+        padding: 20px;
+    }
+
+    .container form {
+        width: 80%; 
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        height: auto;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .container form {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    form .input-field p {
+        font-size: 13px; 
+    }
+
+    form .input-field input[type='text'],
+    form .input-field input[type='email'],
+    form .input-field input[type='password'],
+    form .input-field input[type='number'],
+    form .input-field select {
+        padding: 7px; 
+        font-size: 14px;
+    }
+
+    form .input-field .gender {
+        flex-direction: column; 
+        gap: 10px;
+    }
+
+    form .button-field button {
+        font-size: 15px;
+        padding: 10px;
+    }
+}
